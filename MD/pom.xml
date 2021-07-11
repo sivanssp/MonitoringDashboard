@@ -80,11 +80,11 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
-					<!-- <systemPropertyVariables>
+					<systemPropertyVariables>
 						<appURL>${url}</appURL>
-					</systemPropertyVariables> -->
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
