@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36143" started-at="2021-07-11T15:59:30 IST" finished-at="2021-07-11T16:00:06 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="MDLoginTest.VerifyLogo()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="VerifyLogo" class="com.md.testcases.MDLoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="MDLoginTest.verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="verifyLogin" class="com.md.testcases.MDLoginTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="MDLoginTest.VerifyTitle()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="VerifyTitle" class="com.md.testcases.MDLoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test_all" duration-ms="36143" started-at="2021-07-11T15:59:30 IST" finished-at="2021-07-11T16:00:06 IST">
+      <class name="com.md.testcases.MDLoginTest">
+        <test-method status="PASS" signature="loadconfig()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="loadconfig" is-config="true" duration-ms="474" started-at="2021-07-11T15:59:29 IST" finished-at="2021-07-11T15:59:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadconfig -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="setup" is-config="true" duration-ms="7564" started-at="2021-07-11T15:59:30 IST" finished-at="2021-07-11T15:59:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyLogo()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="VerifyLogo" duration-ms="340" started-at="2021-07-11T15:59:37 IST" finished-at="2021-07-11T15:59:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="tearDown" is-config="true" duration-ms="1494" started-at="2021-07-11T15:59:38 IST" finished-at="2021-07-11T15:59:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="setup" is-config="true" duration-ms="9706" started-at="2021-07-11T15:59:39 IST" finished-at="2021-07-11T15:59:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="VerifyTitle" duration-ms="26" started-at="2021-07-11T15:59:49 IST" finished-at="2021-07-11T15:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="tearDown" is-config="true" duration-ms="913" started-at="2021-07-11T15:59:49 IST" finished-at="2021-07-11T15:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="setup" is-config="true" duration-ms="5465" started-at="2021-07-11T15:59:51 IST" finished-at="2021-07-11T15:59:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="verifyLogin" duration-ms="8148" started-at="2021-07-11T15:59:57 IST" data-provider="LoginData" finished-at="2021-07-11T16:00:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neethish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NeethishM2016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="tearDown" is-config="true" duration-ms="1017" started-at="2021-07-11T16:00:05 IST" finished-at="2021-07-11T16:00:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.md.testcases.MDLoginTest@ea1a8d5]" name="afterSuite" is-config="true" duration-ms="1720" started-at="2021-07-11T16:00:06 IST" finished-at="2021-07-11T16:00:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.md.testcases.MDLoginTest -->
+    </test> <!-- Test_all -->
+  </suite> <!-- Suite -->
+</testng-results>

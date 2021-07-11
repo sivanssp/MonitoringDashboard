@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test_smoke(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.md.testcases.MDLoginTest">
+        <methods>
+          <include name="VerifyLogo"/>
+          <include name="loadconfig"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyTitle"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.md.testcases.MDLoginTest -->
+    </classes>
+  </test> <!-- Test_smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->
