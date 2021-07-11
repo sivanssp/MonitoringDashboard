@@ -2,7 +2,7 @@ package com.md.utility;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.md.base.BaseClass;
+
 
 public class ExtentManager {
  
