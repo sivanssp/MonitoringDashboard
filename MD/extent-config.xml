@@ -19,7 +19,7 @@
         <!-- report name - displayed at top-nav -->
         <reportName>Monitoring Dashboard Project Report
          <![CDATA[
-                <img src='F:\MWS\MD\Logo\ARSlogo.PNG'/>
+                <img src='http://localhost:8085/job/Monitoring%20Dashboard/ws/MD/Logo/ARSlogo.PNG'/>
             ]]>
         </reportName>
         
